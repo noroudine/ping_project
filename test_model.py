@@ -142,4 +142,7 @@ def test_model():
         
         # Calculer et afficher les métriques
         dice = dice_coef(true_mask, predicted_mask).numpy()
-        print(f"Dice coefficient pour {image
+        print(f"Dice coefficient pour {image_file}: {dice:.4f}")
+
+if __name__ == '__main__':
+    test_model()
