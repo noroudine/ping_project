@@ -52,4 +52,20 @@ final_model.h5
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Project specific files
 generate_dataset.py
+redimension.py
+yolov3.weights
+yolov3_custom.cfg
+train_model.py
+create_masks.py
+
+# Large data directories
+Plan/
+test_results/
+
+# Temporary files
+*.tmp
+*.bak
+*.log
